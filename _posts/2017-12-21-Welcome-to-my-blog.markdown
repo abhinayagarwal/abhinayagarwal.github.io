@@ -10,7 +10,7 @@ Hi,
 Welcome to my blog!
 
 The blog will mostly contain posts about Java and JavaFX, 
-but I will try to keep interesting by adding various other stuff.
+but I will try to keep it interesting by adding various other stuff.
 
 Thanks.
 
