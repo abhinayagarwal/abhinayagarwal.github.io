@@ -1,0 +1,18 @@
+table {
+  table-layout: fixed;
+  text-align: inherit;
+}
+
+table th:not(:first-child, :last-child) {
+  width: 15%;
+}
+
+table th:first-child,
+table th:last-child {
+    width: 30%;
+}
+
+table td {
+  white-space: pre-line;
+  word-wrap: break-word;
+}

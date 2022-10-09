@@ -49,7 +49,6 @@ This is my humble attempt to categorise and list all the flags:
 | quantum.singlethreaded | false   | boolean   | Enable single GUI Threading. Can cause a drop in FPS |
 | quantum.verbose        | false   | boolean   | Verbose logging in Quantum toolkit                   |
 
-
 ### Prism
 
 | Flag                          | Default           | Options                                        | Details                                                                                                                                                       |
@@ -74,7 +73,7 @@ This is my humble attempt to categorise and list all the flags:
 | prism.scrollcacheopt          | false             | boolean                                        | Scrolling cache optimization                                                                                                                                  |
 | prism.showdirty               | false             | boolean                                        | Draws overlay rectangles showing where the dirty regions were                                                                                                 |
 | prism.showoverdraw            | false             | boolean                                        | Draws overlay rectangles showing not only the dirty regions, but the count each area within that dirty region was drawn (covered by bounds of a drawn object) |
-| prism.trace                   | false             | boolean                                        | Trace output in prism                                                                                                                                         |                                                                                                                                                        |
+| prism.trace                   | false             | boolean                                        | Trace output in prism                                                                                                                                         |
 | prism.verbose                 | false             | boolean                                        | Verbose output in prism                                                                                                                                       |
 
 ### Scaling
@@ -89,5 +88,3 @@ This is my humble attempt to categorise and list all the flags:
 | sun.java2d.uiScale                |         | percentage e.g. "125%" |                                        |
 | sun.java2d.uiScale.enabled        |         | true                   |                                        |
 | swt.autoScale                     |         | number e.g. "125"      |                                        |
-
-
