@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  Exploring Platform Preferences in JavaFX 22
+title:  Exploring Platform Preferences in JavaFX
 date:   2024-04-06 12:57:00 +0530
 categories: JavaFX
 ---
 
-JavaFX has received an update in version 22 that introduces several new features and enhancements.
+JavaFX 22 introduces several new features and enhancements.
 One of the notable additions is the Platform preferences API, 
 which provides developers with a convenient way to access platform-specific preferences and adapt their applications accordingly.
 In this blog post, we'll explore the new APIs and demonstrate how to leverage them in your JavaFX applications.
@@ -143,6 +143,11 @@ public class PlatformPreferencesDemo extends Application {
     -fx-text-fill: black;
 }
 ```
+
+Here is a video of how the application reacts the appearance changes on a mac:
+
+<video src="https://github.com/abhinayagarwal/abhinayagarwal.github.io/assets/3197675/3e450f96-b287-4267-b01a-b86ff3331aef" controls="controls" style="max-width: 730px;">
+</video>
 
 # Conclusion
 
