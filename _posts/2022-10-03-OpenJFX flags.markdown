@@ -14,13 +14,14 @@ This is my humble attempt to categorise and list all the flags:
 
 ### General
 
-| Flag             | Default                                     | Options                                        | Details                                                     |
-|------------------|---------------------------------------------|------------------------------------------------|-------------------------------------------------------------|
-| glass.platform   | platform specific                           | macosx, windows, linux, gtk, ios, Monocle, swt | Sets the platform for JavaFX application                    |
-| jdk.gtk.verbose  | false                                       | Boolean                                        | Verbose logging related to GTK on Linux                     |
-| jdk.gtk.version  | 3 (since JFX 11)                            | 2, 3                                           | Toggle between GTK versions. Default is 3 since OpenJFX 11  |
-| javafx.verbose   | false                                       | boolean                                        | Verbose logging for JavaFX                                  |   
-| monocle.platform | MX6,OMAP,Dispman,Android,X11,Linux,Headless | MX6,OMAP,Dispman,Android,X11,Linux,Headless    | Series of cascading fallbacks for what NativePlatform types |
+| Flag               | Default                                     | Options                                        | Details                                                     |
+|--------------------|---------------------------------------------|------------------------------------------------|-------------------------------------------------------------|
+| glass.platform     | platform specific                           | macosx, windows, linux, gtk, ios, Monocle, swt | Sets the platform for JavaFX application                    |
+| jdk.gtk.verbose    | false                                       | Boolean                                        | Verbose logging related to GTK on Linux                     |
+| jdk.gtk.version    | 3 (since JFX 11)                            | 2, 3                                           | Toggle between GTK versions. Default is 3 since OpenJFX 11  |
+| javafx.verbose     | false                                       | boolean                                        | Verbose logging for JavaFX                                  |   
+| monocle.platform   | MX6,OMAP,Dispman,Android,X11,Linux,Headless | MX6,OMAP,Dispman,Android,X11,Linux,Headless    | Series of cascading fallbacks for what NativePlatform types |
+| javafx.pulseLogger | false                                       | boolean                                        | Verbose logging related to rendering                        |
 
 ### Accessibility
 
